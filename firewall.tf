@@ -135,7 +135,7 @@ data "template_file" "programa" {
 } 
 
 data "template_file" "manager" {
-  template = file("scripts/scriptmanager.sh")
+  template = file("scriptmanager.sh")
 }
 
 output "idFrontEndSbn" {
