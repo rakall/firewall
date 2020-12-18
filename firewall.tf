@@ -131,7 +131,7 @@ tags ={
 }
 
 data "template_file" "programa" {
-  template = file("scripts/script.sh")
+  template = file("script.sh")
 } 
 
 data "template_file" "manager" {
