@@ -131,11 +131,11 @@ tags ={
 }
 
 data "template_file" "programa" {
-  template = file("./script.sh")
+  template = file("/script.sh")
 } 
 
 data "template_file" "manager" {
-  template = file("./scriptmanager.sh")
+  template = file("/scriptmanager.sh")
 }
 
 output "idFrontEndSbn" {
