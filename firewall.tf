@@ -131,12 +131,8 @@ tags ={
 }
 
 data "template_file" "programa" {
-  template = file("${path.module}/script.sh")
+  template = file("/script.sh")
 } 
-
-data "template_file" "manager" {
-  template = file("${path.module}/scriptmanager.sh")
-}
 
 output "idFrontEndSbn" {
   value = azurerm_subnet.FrontEndSubnet.id
