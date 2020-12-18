@@ -131,7 +131,7 @@ tags ={
 }
 
 data "template_file" "programa" {
-  template = file("/script.sh")
+  template = file("./script.sh")
 } 
 
 output "idFrontEndSbn" {
